@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carne Texas Bar & Grill</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <section>
+    <div class="topHead">
+        <div class="topLeft">
+            <div class="logo">
+                <a href="/">
+                    <img src="{% static 'img/logo.png' %}" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="topRight">
+            <a href="#" class="p-1">Address:16500 Sunset Rd, Houston TX77088</a>
+            <br>
+            <a href="#" class="p-2">Phone:832-123-4567</a>
+        </div>
+    </div>
+    </section>
+    <section>
+    <div class="container content">
+        <div class="content_box row">
+            <div class="Texas col-lg-6 col-md-12">
+                <img class="img-fluid" src="{% static 'img/bar.jpg' %}" alt="">
+            </div>
+            <div class="signUp col-lg-6 col-md-12">
+                <h1>Hello!</h1>
+                <p>Welcome to Carne Texas Bar & Grill.</p>
+                <b>Delivery is available!</b>
+                <div class="mb-3" style="margin-top:20px">
+                    <a href="/edit"><button class="btn btn-primary mb-3">Add Delivery Address</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+</body>
+
+</html>
