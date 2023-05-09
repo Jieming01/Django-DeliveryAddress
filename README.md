@@ -50,14 +50,14 @@ python manage.py runserver
 
 1. If you successfully run the website, you should see the following screen：
 
-   ![screenshot of index page](README.assets/screenshot of index page.JPG)
+   ![screenshot of index page](README.assets/index.jpg)
 
    + You can view the store's contact information on the homepage.
    + Click on the "Add Delivery Address" button to jump to the ordering page.
 
 2. Ordering page:
 
-   ![Screenshot of form page ](README.assets/Screenshot of form page .JPG)
+   ![Screenshot of form page ](README.assets/form.jpg)
 
    + On the reservation page, you can see a list of current reservation information.
    + Enter your reservation information and click the "Save" button to submit your reservation information.
